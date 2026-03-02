@@ -17,28 +17,28 @@
 /* define base font */
 @font-face {
     font-family: "c059";
-    src: url("/fonts/c059-normal.otf") format("opentype");
+    src: url("{T_THEME_PATH}/fonts/c059-normal.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "c059";
-    src: url("/fonts/c059-bold.otf") format("opentype");
+    src: url("{T_THEME_PATH}/fonts/c059-bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "c059";
-    src: url("/fonts/c059-italic.otf") format("opentype");
+    src: url("{T_THEME_PATH}/fonts/c059-italic.otf") format("opentype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "c059";
-    src: url("/fonts/c059-bdita.otf") format("opentype");
+    src: url("{T_THEME_PATH}/fonts/c059-bdita.otf") format("opentype");
     font-weight: 700;
     font-style: italic;
 }
