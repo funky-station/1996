@@ -35,7 +35,7 @@ p { font-size: 85%; }
 .page-number { float: right; width: auto; text-align: right; font-size: 75%; }
 
 h1, h2, h3, h1 a, h2 a, h3 a {
-	font-family: "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "c059", "Liberation Serif", Times, "Times New Roman", serif;
 	color: #000000;
 	background: none;
 	text-decoration: none;
