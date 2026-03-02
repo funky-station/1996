@@ -172,8 +172,8 @@ a:hover	{ text-decoration: underline; }
 .site_logo {
 	background-repeat: no-repeat;
 	display: inline-block;
-	/* width: 213px;
-	height: 84px; */
+	width: 213px;
+	height: 172px;
 }
 
 /* Site description and logo */
