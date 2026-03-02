@@ -91,7 +91,7 @@ a:hover { color: #0088ff; }
 }
 
 .forabg, .forumbg {
-	background-color: transparent;
+	background-color: #000000;
 }
 
 .headerbar {
