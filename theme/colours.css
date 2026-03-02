@@ -82,7 +82,7 @@ a:hover { color: #0088ff; }
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: transparent;
+	background-color: #000000;
 	border-color: transparent;
 }
 
