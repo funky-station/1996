@@ -100,7 +100,7 @@ a:hover { color: #0088ff; }
 }
 
 .navbar {
-	background: url(images/hr-anim.gif) repeat-x top, url(images/hr-anim.gif) repeat-x bottom;
+	background: url(images/hr-still.png) repeat-x top, url(images/hr-still.png) repeat-x bottom;
 }
 
 .panel {
