@@ -32,12 +32,21 @@
 
 .sidebar-search {
 	margin: 0 0 10px 0;
+}
+
+.sidebar-search fieldset {
 	display: flex;
+	align-items: stretch;
+	gap: 2px;
 }
 
 .sidebar-search .inputbox.search {
 	flex: 1;
 	min-width: 0;
+}
+
+.sidebar-search .button {
+	flex: 0 0 auto;
 }
 
 .site-description a {
