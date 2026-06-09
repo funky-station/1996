@@ -1,5 +1,22 @@
 <h2>{L_QUICK_LINKS}</h2>
 
+<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+<div id="search-box" class="search-box sidebar-search" role="search">
+	<form action="{U_SEARCH}" method="get" id="search">
+	<fieldset>
+		<input name="keywords" id="keywords" type="search" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" value="{SEARCH_WORDS}" placeholder="{L_SEARCH_MINI}" />
+		<button class="button button-search" type="submit" title="{L_SEARCH}">
+			<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">{L_SEARCH}</span>
+		</button>
+		<a href="{U_SEARCH}" class="button button-search-end" title="{L_SEARCH_ADV}">
+			<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">{L_SEARCH_ADV}</span>
+		</a>
+		{S_SEARCH_HIDDEN_FIELDS}
+	</fieldset>
+	</form>
+</div>
+<!-- ENDIF -->
+
 <ul class="ib-quicklinks" role="menu">
 
 	<!-- IF U_MARK_FORUMS or U_MARK_TOPICS -->

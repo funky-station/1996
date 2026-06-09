@@ -15,9 +15,29 @@
 	font-size: 2em;
 }
 
+.headerbar {
+	padding: 0;
+}
+
+.logo {
+	display: block;
+	padding: 0;
+}
+
 .banner {
-	max-width: 100%;
+	display: block;
+	width: 100%;
 	height: auto;
+}
+
+.sidebar-search {
+	margin: 0 0 10px 0;
+	display: flex;
+}
+
+.sidebar-search .inputbox.search {
+	flex: 1;
+	min-width: 0;
 }
 
 .site-description a {
@@ -256,11 +276,6 @@ li.header {
 }
 
 @media (max-width: 700px) {
-	.logo {
-		display: inline-block;
-		padding: 0;
-	}
-
 	#page-body {
 		margin: 4px 0;
 		clear: both;
