@@ -15,6 +15,11 @@
 	font-size: 2em;
 }
 
+.banner {
+	max-width: 100%;
+	height: auto;
+}
+
 .site-description a {
 	color: #00a8ff;
 	text-shadow: -1px 1px #000000, -3px 3px  #1e1e72;
@@ -251,10 +256,11 @@ li.header {
 }
 
 @media (max-width: 700px) {
-	.headerbar {
-		background-size: 70px;
+	.logo {
+		display: inline-block;
+		padding: 0;
 	}
-	
+
 	#page-body {
 		margin: 4px 0;
 		clear: both;

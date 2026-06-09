@@ -95,8 +95,7 @@ a:hover { color: #0088ff; }
 }
 
 .headerbar {
-	background: url(images/cirno_1.gif) no-repeat left, url(images/cirno_1.gif) no-repeat right;
-	background-size:contain;
+	background: none;
 }
 
 .navbar {
